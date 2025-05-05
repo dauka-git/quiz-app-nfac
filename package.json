@@ -1,0 +1,11 @@
+{
+    "name": "quiz-app",
+    "version": "1.0.0",
+    "private": true,
+    "workspaces": ["frontend", "server"],
+    "scripts": {
+      "frontend": "cd frontend && npm run dev",
+      "server": "cd server && node index.js",
+      "deploy": "vercel deploy --prod"
+    }
+  }
